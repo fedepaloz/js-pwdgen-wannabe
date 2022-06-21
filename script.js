@@ -5,15 +5,23 @@ Infine scrivi sulla pagina nomecognomecolorepreferito21
  */
 
 
-const firstName = prompt('quale è il tuo nome?');
 
-const secondName = prompt('quale è il tuo cognome?');
+ const firstName = prompt ('nome', 'federico');
 
-const favColor = prompt('il tuo colore preferito');
+ console.log(firstName);
 
-const codice = firstName + secondName + favColor
+ const secondName = prompt ('cognome', 'palozzi');
 
+ console.log(secondName);
 
-const passwordText = document.getElementById ('password');
+ const favCol = prompt ('colore', 'viola');
 
-resultText.innerText = codice;
+ console.log(favCol);
+
+ const password = firstName + secondName + favCol + '21'
+
+ console.log(password);
+
+ const result = document.getElementById('codice');
+
+  result.innerText = password;
