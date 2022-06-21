@@ -14,5 +14,6 @@ const favColor = prompt('il tuo colore preferito');
 const codice = firstName + secondName + favColor
 
 
+const passwordText = document.getElementById ('password');
 
 resultText.innerText = codice;
